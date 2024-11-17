@@ -1,0 +1,134 @@
+:root {
+    --active-button: #4886aa;
+    --span-color: #4886aa;
+    --all-button: #aededf;
+    --product-background: #b7dfe1;
+    --border-color: #d6eeef;
+    --body-color: #fff;
+    --product-list-background: #edf3f6;
+}
+
+.about-us {
+    margin: 30px 150px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    height: 700px;
+    justify-content: space-between;
+}
+
+.about-us .text-section-about{
+    width: 500px;
+}
+
+.about-us .text-section-about #how-we{
+    color: var(--span-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.about-us .text-section-about h2{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+.about-us .text-section-about #about-paragraph{
+    line-height: 1.6;
+    width: 450px;
+    margin-top: 10px;
+}
+
+
+
+.about-us .text-section-about .button-section-about{
+    margin-top: 30px;
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+
+
+.about-us .text-section-about button{
+    width: 160px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid var(--active-button);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: .9rem;
+    transition: ease;
+}
+
+.about-us .text-section-about #font-blue{
+    background-color: var(--active-button);
+    color: #fff;
+}
+
+.about-us .text-section-about #font-color{
+    color: var(--span-color);
+}
+
+
+
+
+/* about us image section */
+.about-us .image-section-about{
+    width: 500px;
+    height: 700px;
+    position: relative;
+}
+
+.about-us .image-section-about .about-image-border {
+    border: 4px solid var(--active-button);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us .image-section-about img {
+    width: 370px;
+    margin: 15px;
+}
+
+.about-us .image-section-about .first-image {
+    position: absolute;
+    top: 70px;
+}
+
+.about-us .image-section-about .first-image img,
+.about-us .image-section-about .third-image {
+    transition: 1s ease-in;
+}
+
+.about-us .image-section-about .first-image img:hover {
+    z-index: 2;
+    scale: 1.05;
+}
+
+.about-us .image-section-about .second-image {
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+    z-index: -1;
+    width: 400px;
+    height: 400px;
+}
+
+
+.about-us .image-section-about .third-image {
+    height: 395px;
+    position: absolute;
+    bottom: 14px;
+    left: 99px;
+    z-index: 1;
+}
+
+
+.about-us .image-section-about .third-image:hover {
+    z-index: 1;
+    scale: 1.03;
+}
+
+

@@ -1,0 +1,120 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+:root {
+    --active-button: #4886aa;
+    --span-color: #4886aa;
+    --all-button: #aededf;
+    --product-background: #b7dfe1;
+    --border-color: #d6eeef;
+    --body-color: #fff;
+    --product-list-background: #edf3f6;
+    --contact-us-input: #e8f5f6;
+    --contact-us-background: #e7f5f6;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-main-section {
+    width: 100%;
+}
+
+.footer-main-section .sub-section-footer {
+    margin: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-main-section .head-of-footer {
+    height: 380px;
+}
+
+.footer-main-section .sub-section-footer .footer-logo-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-top: 100px;
+}
+
+.footer-main-section .sub-section-footer .footer-logo-section p {
+    width: 350px;
+    font-size: 18px;
+    line-height: 2;
+    opacity: 0.75;
+}
+
+.footer-main-section .sub-section-footer .footer-logo-section .logo-footer {
+    width: 200px;
+    cursor: pointer;
+}
+
+.footer-main-section .sub-section-footer .footer-logo-section .social-media {
+    display: flex;
+}
+
+.footer-main-section .sub-section-footer .footer-logo-section .social-media .social-icon-dive {
+    margin-right: 20px;
+    background-color: #eeefef;
+    /* padding: 7px; */
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-main-section .sub-section-footer .footer-logo-section .social-media .bi {
+    font-size: 20px;
+    color: var(--span-color);
+}
+
+.footer-main-section .sub-section-footer .footer-details-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 100px;
+    column-gap: 90px;
+    font-size: 22px;
+}
+
+
+.footer-main-section .sub-section-footer .footer-details-section ul{
+    list-style: none;
+    margin-top: 30px;
+}
+
+
+
+.footer-main-section .sub-section-footer .footer-details-section ul li{
+    margin-bottom: 13px;
+    font-size: 18px;
+}
+
+
+.footer-main-section .bottom-of-footer {
+    border-top: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bottom-of-footer p {
+    margin: 30px 0px;
+}
+/* 
+
+.social-media .social-media-link img {
+    width: 500px;
+} */

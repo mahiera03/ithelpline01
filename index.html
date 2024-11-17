@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It Helpline</title>
+    <link rel="stylesheet" href="./src/styles.css">
+    <link rel="stylesheet" href="./src/resultsInNumber.css">
+    <link rel="stylesheet" href="./src/about-us.css">
+    <link rel="stylesheet" href="./src/contactFile.css">
+    <link rel="stylesheet" href="./src/nav-bar.css">
+    <link rel="stylesheet" href="./src/testimonials.css">
+    <link rel="stylesheet" href="./src/style-footer.css">
+    <link rel="stylesheet" href="./src/newproduct.css">
+</head>
+
+<body>
+    <div class="main-container">
+
+        <!-- header and navbar -->
+        <div class="header-section" id="ha">
+            <img src="./images/Logo.png" alt="company logo image">
+            <ul class="nave-bar">
+                <li class="nav-bar-item"><a href="#h">Home</a></li>
+                <li class="nav-bar-item"><a href="#a">About</a></li>
+                <li id="disProduct" class="nav-bar-item"><a href="#p">Products</a></li>
+                <li id="disService" class="nav-bar-item"><a href="#p">Services</a></li>
+                <li class="nav-bar-item"><a href="#c">Contact</a></li>
+                <!-- <li class="nav-bar-item"><a href="#cs">Case Studies</a> </li> -->
+                <!-- <li class="nav-bar-item"><a href="#b">Blog</a></li> -->
+                <li class="nav-bar-item"><a href="#c" id="active-btn" class="active">Enquiry</a></li>
+            </ul>
+        </div>
+
+        <!-- over view section -->
+
+        <div id="h" class="over-view-section">
+            <div class="over-view-text">
+                <h1>Empowering Your <span>Business</span> with Cutting-Edge <br><span>IT Solutions</span></h1>
+                <p>Expert support for Google, Microsoft Power BI, Power Apps, and more, including professional app and
+                    website design and development, as well as comprehensive social media management.</p>
+                <div class="over-button">
+                    <button id="contactButton" class="over-button-item blue-back buttonForContact">Contact Us</button>
+                    <button class="over-button-item font-blue buttonForDownload">Projects PDF</button>
+                </div>
+            </div>
+            <div class="over-view-image-section">
+                <div class="over-view-image">
+
+                    <!-- <img src="./images/header-image.jpg" alt="random laptop image"> -->
+                </div>
+                <div class="over-view-image1">
+                    <img id="vimal" src="./images/header-image.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!--  product services  -->
+        <!--  product services  -->
+        <div id="p" class="product-service-section">
+            <div class="services-headings">
+                <p>What we re offering to our clients</p>
+                <h2>Real time dealing in all Professional IT Solutions & Services</h2>
+            </div>
+            <div class="button-product-services-item">
+                <div class="product-service-button">
+                    <button id="productDisplay" class="products-button active">Products</button>
+                    <button id="servicesDisplay" class="products-button">Services</button>
+                </div>
+                <div class="product-services-items">
+                    <div class="product-items-section" id="product">
+                        <div class="product-item active">
+                            <div class="product-box">
+                                <div class="product-image-box-radius">
+
+                                    <img src="./images/microsoftSharePoint.png" style="width: 60px; border-radius: 50%;"
+                                        alt="">
+                                </div>
+                                <h3>Microsoft Share Point</h3>
+                                <p>Microsoft SharePoint enables seamless collaboration, secure file sharing, and
+                                    streamlined workflows to keep your team
+                                    connected and productive.</p>
+                                <button class="buttonForContact">Contact Us &rarr;</button>
+                            </div>
+
+                        </div>
+                        <div class="product-item">
+                            <div class="product-box">
+                                <div class="product-image-box-radius">
+
+                                    <img src="./images/microsoftProject.png" style="width: 60px; border-radius: 50%;"
+                                        alt="">
+                                </div>
+                                <h3>Microsoft Projects</h3>
+                                <p>Microsoft Project simplifies project planning, resource management, and task
+                                    tracking, helping teams deliver projects on
+                                    time and within budget.</p>
+                                <button class="buttonForContact">Contact Us &rarr;</button>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-box">
+                                <div class="product-image-box-radius">
+
+                                    <img src="./images/powerBi.png" style="width: 60px; border-radius: 50%;" alt="">
+                                </div>
+                                <h3>Power BI</h3>
+                                <p>Power BI transforms data into insights with interactive dashboards and reports,
+                                    enabling data-driven decisions and
+                                    enhanced business visibility.</p>
+                                <button class="buttonForContact">Contact Us &rarr;</button>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-box">
+                                <div class="product-image-box-radius">
+
+                                    <img src="./images/powerApp.png" style="width: 60px; border-radius: 50%;" alt="">
+                                </div>
+                                <h3>Microsoft Power Automate</h3>
+                                <p>Power Automate streamlines workflows by automating repetitive tasks, boosting
+                                    efficiency and productivity across your
+                                    business operations.</p>
+                                <button class="buttonForContact">Contact Us &rarr;</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-items-section" id="service">
+                        <div class="product-item active">
+                            <div class="product-box">
+                                <div class="product-image-box-radius">
+
+                                    <img src="./images/webDevelopment.png" style="width: 60px; border-radius: 50%;"
+                                        alt="">
+                                </div>
+                                <h3>Web Development</h3>
+                                <p>Providing end-to-end web development services, we create responsive, user-friendly
+                                    websites tailored to enhance your
+                                    brand and engage your audience.</p>
+                                <button class="buttonForContact">Contact Us &rarr;</button>
+                            </div>
+
+                        </div>
+                        <div class="product-item">
+                            <div class="product-box">
+                                <div class="product-image-box-radius">
+
+                                    <img src="./images/graphicDesign.png" style="width: 60px; border-radius: 50%;"
+                                        alt="">
+                                </div>
+                                <h3>Graphic Designing</h3>
+                                <p>Delivering eye-catching graphic design solutions that enhance brand identity, engage
+                                    audiences, and communicate your
+                                    message effectively.</p>
+                                <button class="buttonForContact">Contact Us &rarr;</button>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-box">
+                                <div class="product-image-box-radius">
+
+                                    <img src="./images/brandBook.png" style="width: 60px; border-radius: 50%;" alt="">
+                                </div>
+                                <h3>Brand Book</h3>
+                                <p>Crafting a comprehensive Brand Book that defines your brand’s identity, guidelines,
+                                    and values, ensuring consistency
+                                    across all communications.</p>
+                                <button class="buttonForContact">Contact Us &rarr;</button>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-box">
+                                <div class="product-image-box-radius">
+
+                                    <img src="./images/socialManagment.png" style="width: 60px; border-radius: 50%;"
+                                        alt="">
+                                </div>
+                                <h3>Social Media Management</h3>
+                                <p>Managing your social media presence to boost engagement, grow your audience, and
+                                    strengthen your brand with tailored,
+                                    consistent content.</p>
+                                <button class="buttonForContact">Contact Us &rarr;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- out results in number -->
+
+        <div id="cs" class="result-show-container">
+            <h2>Our results in numbers</h2>
+            <div class="num-details">
+                <div class="text-with-number">
+                    <h3>99<span>%</span></h3>
+                    <p>Experience</p>
+                </div>
+                <div class="text-with-number">
+                    <h3>15<span>+</span></h3>
+                    <p>Team Members</p>
+                </div>
+                <div class="text-with-number">
+                    <h3>25<span>+</span></h3>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="text-with-number">
+                    <h3>100<span>%</span></h3>
+                    <p>Delivery</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- about us page -->
+
+        <div id="a" class="about-us">
+            <div class="text-section-about">
+                <p id="how-we">How we started</p>
+                <h2>About us</h2>
+                <p id="about-paragraph">Welcome to IT Helpline, where we empower businesses with innovative digital
+                    solutions. Our dedicated team of experts
+                    specializes in web development, graphic design, social media management, and data analytics,
+                    ensuring tailored services
+                    that meet your unique needs.
+
+                    Founded on creativity, collaboration, and excellence, our mission is to enhance your brand's
+                    presence and help you
+                    achieve your business goals. From crafting responsive websites to designing impactful graphics and
+                    implementing tools
+                    like Microsoft Power BI and SharePoint, we bring your vision to life.
+
+                    At IT Helpline, we value strong client relationships and understand your challenges. Our
+                    personalized approach focuses
+                    on delivering results that drive your success. Partner with us to unlock your brand’s full potential
+                    in the digital
+                    landscape.</p>
+                <div class="button-section-about">
+                    <button id="font-blue" class="btn-about-section buttonForContact">Contact Us</button>
+                    <button id="font-color" class="btn-about-section buttonForDownload">Project PDFs</button>
+                </div>
+            </div>
+            <div class="image-section-about">
+                <div class="first-image about-image-border ">
+                    <img src="./images/orange-background.jpg" alt="">
+                </div>
+                <div class="second-image about-image-border">
+                </div>
+                <div class="third-image">
+                    <img src="./images/orange-background1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Us form page -->
+
+        <div id="c" class="display-center">
+            <div class="main-contact-body">
+                <div class="contact-form-container">
+                    <h1>Connect with us</h1>
+                    <p>
+                        Have questions or need assistance? Reach out to us! Send your inquiries via email, and our team
+                        at IT Helpline will get
+                        back to you promptly to support your needs.
+                    </p>
+                    <form class="contact-form" id="formContactUs">
+                        <div class="form-group form-group-flex">
+                            <div class="form-item">
+                                <label for="names">Name</label>
+                                <input type="text" id="name" placeholder="Name" name="name" required>
+                            </div>
+                            <div class="form-item">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="Email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" placeholder="Please type your message here..."
+                                name="message"></textarea>
+                        </div>
+                        <button type="submit" id="btn">Send message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- testimonials page -->
+
+        <div class="main-container-testimonials">
+            <div class="sub-container">
+                <p class="top-paragraph">Our customers say about us</p>
+                <h2 class="test-heading">testimonials</h2>
+                <div class="testimonials-section" id="main-parent-div">
+                    <div class="images-section" id="parent-div">
+                    </div>
+                </div>
+            </div>
+            <div class="next-btn" id="next"> <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70"
+                    class="bi bi-chevron-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                </svg> </div>
+            <div class="previous-btn" id="previous"> <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70"
+                    class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                </svg>
+            </div>
+        </div>
+
+
+        <!-- footer section start here -->
+        <div class="footer-main-section">
+            <div class="sub-section-footer head-of-footer">
+                <div class="footer-logo-section">
+                    <img class="logo-footer for-top-move" src="./images/Logo.png" alt="">
+                    <p>
+                        Expert support for Google, Microsoft Power BI, Power Apps, and more.
+                    </p>
+                    <div class="social-media">
+                        <div class="social-icon-dive"><i class="bi bi-facebook"></i></div>
+                        <div class="social-icon-dive instagram"><i class="bi bi-instagram"></i></div>
+                        <div class="social-icon-dive"><i class="bi bi-twitter-x"></i></div>
+                        <div class="social-icon-dive"><i class="bi bi-linkedin"></i></div>
+                        <div class="social-icon-dive"><i class="bi bi-youtube"></i></div>
+                    </div>
+                </div>
+                <div class="footer-details-section">
+                    <div class="product-service-support">
+                        <h3>Product</h3>
+                        <ul>
+                            <li>Google work space</li>
+                            <li>Microsoft edge</li>
+                        </ul>
+                    </div>
+                    <div class="product-service-support">
+                        <h3>Services</h3>
+                        <ul>
+                            <li>UI UX design</li>
+                            <li>Development</li>
+                        </ul>
+                    </div>
+                    <div class="product-service-support">
+                        <h3>Support</h3>
+                        <ul>
+                            <li>Getting started</li>
+                            <li>Help center</li>
+                            <li>Server status</li>
+                            <li>Report a bug</li>
+                            <li>Chat support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-section-footer bottom-of-footer">
+                <p>
+                    Copyright &#169; 2024 | All Rights Reserved | Name Terms and Conditions Privacy Policy
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./src/main-script.js"></script>
+    <script src="./src/product_script.js"></script>
+    <script src="./src/contactUsScript.js"></script>
+    <script src="./src/secondScript.js"></script>
+    <script src="./src/footerScript.js"></script>
+</body>
+
+</html>
